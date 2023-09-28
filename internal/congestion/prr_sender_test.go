@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
 )
 
 var _ = Describe("PRR sender", func() {

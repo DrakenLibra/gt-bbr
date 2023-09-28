@@ -12,7 +12,7 @@ jobs:
       - image: << parameters.image >>
         environment:
           GO111MODULE: "on"
-    working_directory: /go/src/github.com/For-ACGN/quic-bbr
+    working_directory: /go/src/github.com/DrakenLibra/gt-bbr
     steps:
       - checkout
       - run:

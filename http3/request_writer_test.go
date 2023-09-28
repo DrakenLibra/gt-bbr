@@ -8,8 +8,8 @@ import (
 
 	"github.com/marten-seemann/qpack"
 
-	mockquic "github.com/For-ACGN/quic-bbr/internal/mocks/quic"
-	"github.com/For-ACGN/quic-bbr/internal/utils"
+	mockquic "github.com/DrakenLibra/gt-bbr/internal/mocks/quic"
+	"github.com/DrakenLibra/gt-bbr/internal/utils"
 	"github.com/golang/mock/gomock"
 
 	. "github.com/onsi/ginkgo"

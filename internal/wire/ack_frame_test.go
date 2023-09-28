@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

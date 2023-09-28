@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
 )
 
 // A PathChallengeFrame is a PATH_CHALLENGE frame

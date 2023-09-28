@@ -3,8 +3,8 @@ package congestion
 import (
 	"time"
 
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
-	"github.com/For-ACGN/quic-bbr/internal/utils"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
+	"github.com/DrakenLibra/gt-bbr/internal/utils"
 )
 
 // Note(pwestin): the magic clamping numbers come from the original code in

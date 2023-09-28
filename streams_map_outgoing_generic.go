@@ -3,8 +3,8 @@ package quic
 import (
 	"sync"
 
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
-	"github.com/For-ACGN/quic-bbr/internal/wire"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
+	"github.com/DrakenLibra/gt-bbr/internal/wire"
 )
 
 //go:generate genny -in $GOFILE -out streams_map_outgoing_bidi.go gen "item=streamI Item=BidiStream streamTypeGeneric=protocol.StreamTypeBidi"

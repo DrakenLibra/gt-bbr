@@ -1,6 +1,6 @@
 package ackhandler
 
-import "github.com/For-ACGN/quic-bbr/internal/wire"
+import "github.com/DrakenLibra/gt-bbr/internal/wire"
 
 // IsFrameAckEliciting returns true if the frame is ack-eliciting.
 func IsFrameAckEliciting(f wire.Frame) bool {

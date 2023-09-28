@@ -7,13 +7,13 @@
 # Afterwards, it corrects the import paths (replaces internalpackage back to internal).
 
 TEMP_DIR=$(mktemp -d)
-mkdir -p $TEMP_DIR/src/github.com/For-ACGN/quic-bbr/internalpackage
+mkdir -p $TEMP_DIR/src/github.com/DrakenLibra/gt-bbr/internalpackage
 
 # uppercase the name of the interface (only has an effect for private interfaces)
 INTERFACE_NAME="$(tr '[:lower:]' '[:upper:]' <<< ${4:0:1})${4:1}"
 PACKAGE_NAME=`echo $3 | sed 's/.*\///'`
 
-cp -r $GOPATH/src/github.com/For-ACGN/quic-bbr/internal/* $TEMP_DIR/src/github.com/For-ACGN/quic-bbr/internalpackage
+cp -r $GOPATH/src/github.com/DrakenLibra/gt-bbr/internal/* $TEMP_DIR/src/github.com/DrakenLibra/gt-bbr/internalpackage
 find $TEMP_DIR -type f -name "*.go" -exec sed -i '' 's/internal/internalpackage/g' {} \;
 
 export GOPATH="$TEMP_DIR:$GOPATH"

@@ -6,8 +6,8 @@ import (
 	"net"
 	"time"
 
-	quic "github.com/For-ACGN/quic-bbr"
-	"github.com/For-ACGN/quic-bbr/integrationtests/tools/testserver"
+	quic "github.com/DrakenLibra/gt-bbr"
+	"github.com/DrakenLibra/gt-bbr/integrationtests/tools/testserver"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

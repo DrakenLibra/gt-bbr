@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/For-ACGN/quic-bbr/internal/utils"
+	"github.com/DrakenLibra/gt-bbr/internal/utils"
 	"github.com/marten-seemann/qpack"
 
 	. "github.com/onsi/ginkgo"

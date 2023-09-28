@@ -1,7 +1,7 @@
 package congestion
 
 import (
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
 )
 
 // PrrSender implements the Proportional Rate Reduction (PRR) per RFC 6937

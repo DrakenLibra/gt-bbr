@@ -3,7 +3,7 @@ package http3
 import (
 	"fmt"
 
-	quic "github.com/For-ACGN/quic-bbr"
+	quic "github.com/DrakenLibra/gt-bbr"
 )
 
 type errorCode quic.ErrorCode

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
-	"github.com/For-ACGN/quic-bbr/internal/utils"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
+	"github.com/DrakenLibra/gt-bbr/internal/utils"
 )
 
 // LogFrame logs a frame, either sent or received

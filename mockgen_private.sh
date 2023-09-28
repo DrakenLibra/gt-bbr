@@ -5,17 +5,17 @@
 # It then creates a mock for this public (alias) type.
 
 TEMP_DIR=$(mktemp -d)
-mkdir -p $TEMP_DIR/src/github.com/For-ACGN/quic-bbr/
+mkdir -p $TEMP_DIR/src/github.com/DrakenLibra/gt-bbr/
 
 # uppercase the name of the interface
 INTERFACE_NAME="$(tr '[:lower:]' '[:upper:]' <<< ${4:0:1})${4:1}"
 
 # copy all .go files to a temporary directory
-rsync -r --exclude 'vendor' --include='*.go' --include '*/' --exclude '*'   $GOPATH/src/github.com/For-ACGN/quic-bbr/ $TEMP_DIR/src/github.com/For-ACGN/quic-bbr/
+rsync -r --exclude 'vendor' --include='*.go' --include '*/' --exclude '*'   $GOPATH/src/github.com/DrakenLibra/gt-bbr/ $TEMP_DIR/src/github.com/DrakenLibra/gt-bbr/
 
 # create a public alias for the interface, so that mockgen can process it
-echo -e "package $1\n" > $TEMP_DIR/src/github.com/For-ACGN/quic-bbr/mockgen_interface.go
-echo "type $INTERFACE_NAME = $4" >> $TEMP_DIR/src/github.com/For-ACGN/quic-bbr/mockgen_interface.go
+echo -e "package $1\n" > $TEMP_DIR/src/github.com/DrakenLibra/gt-bbr/mockgen_interface.go
+echo "type $INTERFACE_NAME = $4" >> $TEMP_DIR/src/github.com/DrakenLibra/gt-bbr/mockgen_interface.go
 
 export GOPATH="$TEMP_DIR:$GOPATH"
 

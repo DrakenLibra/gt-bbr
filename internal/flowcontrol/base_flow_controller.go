@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/For-ACGN/quic-bbr/internal/congestion"
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
-	"github.com/For-ACGN/quic-bbr/internal/utils"
+	"github.com/DrakenLibra/gt-bbr/internal/congestion"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
+	"github.com/DrakenLibra/gt-bbr/internal/utils"
 )
 
 type baseFlowController struct {

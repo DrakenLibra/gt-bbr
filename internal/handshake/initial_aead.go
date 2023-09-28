@@ -4,7 +4,7 @@ import (
 	"crypto"
 	"crypto/aes"
 
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
 	"github.com/marten-seemann/qtls"
 )
 

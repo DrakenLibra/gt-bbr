@@ -11,7 +11,7 @@ import (
 	"log"
 	"math/big"
 
-	quic "github.com/For-ACGN/quic-bbr"
+	quic "github.com/DrakenLibra/gt-bbr"
 )
 
 const addr = "localhost:4242"

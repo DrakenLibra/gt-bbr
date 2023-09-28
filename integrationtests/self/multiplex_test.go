@@ -7,10 +7,10 @@ import (
 	"os"
 	"time"
 
-	quic "github.com/For-ACGN/quic-bbr"
-	"github.com/For-ACGN/quic-bbr/integrationtests/tools/testlog"
-	"github.com/For-ACGN/quic-bbr/integrationtests/tools/testserver"
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
+	quic "github.com/DrakenLibra/gt-bbr"
+	"github.com/DrakenLibra/gt-bbr/integrationtests/tools/testlog"
+	"github.com/DrakenLibra/gt-bbr/integrationtests/tools/testserver"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

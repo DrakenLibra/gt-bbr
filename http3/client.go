@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/For-ACGN/quic-bbr"
-	"github.com/For-ACGN/quic-bbr/internal/utils"
+	"github.com/DrakenLibra/gt-bbr"
+	"github.com/DrakenLibra/gt-bbr/internal/utils"
 	"github.com/marten-seemann/qpack"
 )
 

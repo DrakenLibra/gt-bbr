@@ -3,7 +3,7 @@ package http3
 import (
 	"io"
 
-	quic "github.com/For-ACGN/quic-bbr"
+	quic "github.com/DrakenLibra/gt-bbr"
 )
 
 type responseBody struct {

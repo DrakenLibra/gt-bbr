@@ -1,6 +1,6 @@
 package wire
 
-import "github.com/For-ACGN/quic-bbr/internal/protocol"
+import "github.com/DrakenLibra/gt-bbr/internal/protocol"
 
 // AckRange is an ACK range
 type AckRange struct {

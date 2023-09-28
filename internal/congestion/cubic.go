@@ -4,8 +4,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
-	"github.com/For-ACGN/quic-bbr/internal/utils"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
+	"github.com/DrakenLibra/gt-bbr/internal/utils"
 )
 
 // This cubic implementation is based on the one found in Chromiums's QUIC

@@ -1,7 +1,7 @@
 package http3
 
 import (
-	mockquic "github.com/For-ACGN/quic-bbr/internal/mocks/quic"
+	mockquic "github.com/DrakenLibra/gt-bbr/internal/mocks/quic"
 	"github.com/golang/mock/gomock"
 
 	. "github.com/onsi/ginkgo"

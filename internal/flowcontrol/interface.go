@@ -1,6 +1,6 @@
 package flowcontrol
 
-import "github.com/For-ACGN/quic-bbr/internal/protocol"
+import "github.com/DrakenLibra/gt-bbr/internal/protocol"
 
 type flowController interface {
 	// for sending

@@ -1,6 +1,6 @@
 package congestion
 
-import "github.com/For-ACGN/quic-bbr/internal/protocol"
+import "github.com/DrakenLibra/gt-bbr/internal/protocol"
 
 type connectionStats struct {
 	slowstartPacketsLost protocol.PacketNumber

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	quic "github.com/For-ACGN/quic-bbr"
+	quic "github.com/DrakenLibra/gt-bbr"
 
 	"golang.org/x/net/http/httpguts"
 )

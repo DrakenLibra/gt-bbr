@@ -10,9 +10,9 @@ import (
 	"net/http"
 	"time"
 
-	quic "github.com/For-ACGN/quic-bbr"
-	mockquic "github.com/For-ACGN/quic-bbr/internal/mocks/quic"
-	"github.com/For-ACGN/quic-bbr/internal/utils"
+	quic "github.com/DrakenLibra/gt-bbr"
+	mockquic "github.com/DrakenLibra/gt-bbr/internal/mocks/quic"
+	"github.com/DrakenLibra/gt-bbr/internal/utils"
 	"github.com/golang/mock/gomock"
 	"github.com/marten-seemann/qpack"
 

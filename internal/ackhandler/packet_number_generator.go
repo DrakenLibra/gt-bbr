@@ -4,8 +4,8 @@ import (
 	"crypto/rand"
 	"math"
 
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
-	"github.com/For-ACGN/quic-bbr/internal/wire"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
+	"github.com/DrakenLibra/gt-bbr/internal/wire"
 )
 
 // The packetNumberGenerator generates the packet number for the next packet

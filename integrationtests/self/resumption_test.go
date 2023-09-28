@@ -6,7 +6,7 @@ import (
 	"net"
 	"sync"
 
-	quic "github.com/For-ACGN/quic-bbr"
+	quic "github.com/DrakenLibra/gt-bbr"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

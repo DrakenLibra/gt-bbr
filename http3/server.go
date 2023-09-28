@@ -14,9 +14,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/For-ACGN/quic-bbr"
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
-	"github.com/For-ACGN/quic-bbr/internal/utils"
+	"github.com/DrakenLibra/gt-bbr"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
+	"github.com/DrakenLibra/gt-bbr/internal/utils"
 	"github.com/marten-seemann/qpack"
 )
 
@@ -252,7 +252,8 @@ func (s *Server) CloseGracefully(timeout time.Duration) error {
 
 // SetQuicHeaders can be used to set the proper headers that announce that this server supports QUIC.
 // The values that are set depend on the port information from s.Server.Addr, and currently look like this (if Addr has port 443):
-//  Alt-Svc: quic=":443"; ma=2592000; v="33,32,31,30"
+//
+//	Alt-Svc: quic=":443"; ma=2592000; v="33,32,31,30"
 func (s *Server) SetQuicHeaders(hdr http.Header) error {
 	port := atomic.LoadUint32(&s.port)
 

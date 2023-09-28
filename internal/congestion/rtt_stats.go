@@ -3,7 +3,7 @@ package congestion
 import (
 	"time"
 
-	"github.com/For-ACGN/quic-bbr/internal/utils"
+	"github.com/DrakenLibra/gt-bbr/internal/utils"
 )
 
 const (

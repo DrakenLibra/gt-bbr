@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	quic "github.com/For-ACGN/quic-bbr"
-	mockquic "github.com/For-ACGN/quic-bbr/internal/mocks/quic"
+	quic "github.com/DrakenLibra/gt-bbr"
+	mockquic "github.com/DrakenLibra/gt-bbr/internal/mocks/quic"
 	"github.com/golang/mock/gomock"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

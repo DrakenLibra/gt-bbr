@@ -3,7 +3,7 @@ package quic
 import (
 	"github.com/cheekybits/genny/generic"
 
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
 )
 
 // In the auto-generated streams maps, we need to be able to close the streams.

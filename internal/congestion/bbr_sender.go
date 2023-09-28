@@ -7,7 +7,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
 )
 
 var (

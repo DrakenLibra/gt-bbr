@@ -3,7 +3,7 @@ package wire
 import (
 	"bytes"
 
-	"github.com/For-ACGN/quic-bbr/internal/protocol"
+	"github.com/DrakenLibra/gt-bbr/internal/protocol"
 )
 
 // A PingFrame is a PING frame
