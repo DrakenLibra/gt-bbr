@@ -1,4 +1,4 @@
-module github.com/DrakenLibra/quic-bbr
+module github.com/DrakenLibra/gt-bbr
 
 go 1.12
 
